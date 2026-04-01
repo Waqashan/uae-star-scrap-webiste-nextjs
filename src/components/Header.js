@@ -67,17 +67,17 @@ export function Header() {
             </button>
 
             <Link href="/" className="flex items-center gap-3">
-            <div className="grid h-10 w-10 place-items-center rounded-2xl bg-(--brand-blue) text-white">
-              <span className="text-xs font-black tracking-tight">UAE</span>
-            </div>
-            <div className="leading-tight">
-              <div className="text-xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-500">
-                {siteConfig.name}
+              <div className="grid h-10 w-10 place-items-center rounded-2xl bg-(--brand-blue) text-white">
+                <span className="text-xs font-black tracking-tight">UAE</span>
               </div>
-              <div className="text-xs text-slate-600">
-                Repair • Resale (Warranty) • Scrap Trading
+              <div className="leading-tight">
+                <div className="text-xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-500">
+                  {siteConfig.name}
+                </div>
+                <div className="text-xs text-slate-600 hidden sm:block">
+                  Repair • Resale (Warranty) • Scrap Trading
+                </div>
               </div>
-            </div>
             </Link>
           </div>
 
@@ -92,7 +92,7 @@ export function Header() {
                   className={`rounded-xl px-3 py-2 text-sm font-semibold transition-colors ${isActive
                     ? "bg-slate-50 text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-500 shadow-sm"
                     : "text-slate-700 hover:bg-slate-100 hover:text-slate-900"
-                  }`}
+                    }`}
                 >
                   {item.label}
                 </Link>
@@ -148,7 +148,7 @@ export function Header() {
                 className={`rounded-xl px-4 py-3 text-sm font-semibold transition-colors ${isActive
                   ? "bg-orange-50 text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-500"
                   : "text-slate-700 hover:bg-slate-50 hover:text-slate-900"
-                }`}
+                  }`}
               >
                 {item.label}
               </Link>
