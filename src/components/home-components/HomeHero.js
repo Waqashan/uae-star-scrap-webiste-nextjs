@@ -64,18 +64,18 @@ export function HomeHero() {
               <ButtonLink
                 variant="custom"
                 href={waRepair}
-                className="group flex items-center gap-2 bg-white border-2 border-orange-200 text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-500 hover:bg-slate-50 shadow-md rounded-lg px-8 py-4 font-bold text-lg transition-all duration-300 hover:scale-105"
+                className="group flex items-center gap-2 bg-white border-2 border-orange-200 text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-500 hover:bg-slate-50 shadow-md rounded-lg px-4 md:px-8 py-4 font-bold text-lg md:text-xl transition-all duration-300 hover:scale-105"
               >
                 <FaWrench className="size-5 transition-transform group-hover:rotate-12" />
                 Repair My Tank
-                <FaArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
+                <FaArrowRight className="size-4 text-orange-400 transition-transform group-hover:translate-x-1" />
               </ButtonLink>
 
 
 
               <ButtonLink
                 href={`tel:${siteConfig.phoneTel}`}
-                className="group flex items-center gap-2 backdrop-blur-sm border-2 border-white/30 text-white hover:bg-white/10 rounded-lg px-8 py-4 font-black text-lg transition-all duration-300 hover:scale-105"
+                className="group flex items-center gap-2 bg-white border-2 border-orange-200 text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-yellow-500 hover:bg-slate-50 shadow-md rounded-lg px-4 md:px-8 py-4 font-bold text-lg md:text-xl transition-all duration-300 hover:scale-105"
               >
                 <FaPhone className="size-4 text-orange-400" />
                 {siteConfig.phoneDisplay}

@@ -62,8 +62,8 @@ export default function ServicesPage() {
                 With over a decade of experience serving the UAE, we provide clear warranty terms, certified food-grade materials, and a process built on total transparency.
               </p>
               <div className="mt-8">
-                <ButtonLink href={waRepair} className="group bg-white text-(--brand-blue) hover:bg-slate-50 rounded-xl px-8 py-4 font-black transition-all inline-flex items-center gap-2 shadow-lg hover:scale-105 active:scale-95">
-                  Consult an Expert <FaArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
+                <ButtonLink href={waRepair} className="group bg-orange-400 text-(--brand-blue) hover:border-white hover:text-white rounded-xl px-8 py-4 font-bold transition-all inline-flex items-center gap-2 shadow-lg">
+                  Contact to our Team <FaArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
                 </ButtonLink>
               </div>
             </div>
