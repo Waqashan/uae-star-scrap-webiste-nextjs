@@ -10,6 +10,7 @@ export const siteConfig = {
     "used water tanks for sale Dubai",
     "refurbished water tanks",
     "tank scrap buyers UAE",
+    "water tank scrap",
     "scrap dealers UAE",
     "tank warranty",
   ],
