@@ -40,6 +40,7 @@ export const siteConfig = {
   ],
   landmarks: [contact.address.landmark],
 
-  googleMapsEmbedUrl: contact.address.link,
+  googleMapsEmbedUrl: contact.address.embedUrl,
+  googleMapsDirectLink: contact.address.directLink,
 };
 

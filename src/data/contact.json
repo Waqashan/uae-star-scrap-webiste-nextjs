@@ -9,11 +9,12 @@
     "dialer": "+971581892291",
     "whatsapp": "971581892291"
   },
-  "email": "info@uaestarscrap.com",
+  "email": "info.uaestarscrap@gmail.com",
   "address": {
     "full": "7VGH+2H9 - Unnamed Road - Al Dhaid - Sharjah - United Arab Emirates",
     "short": "Al Dhaid, Sharjah, UAE",
     "landmark": "7VGH+2H9",
-    "link": "https://www.google.com/maps?q=7VGH+2H9+Al+Dhaid+Sharjah"
+    "embedUrl": "https://maps.google.com/maps?q=25.2748698,55.8788471&z=17&output=embed",
+    "directLink": "https://www.google.com/maps/place/25%C2%B016'29.5%22N+55%C2%B052'43.9%22E/@25.2748698,55.8762722,17z/data=!3m1!4b1!4m4!3m3!8m2!3d25.2748698!4d55.8788471?hl=en&entry=ttu"
   }
 }

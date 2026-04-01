@@ -14,7 +14,7 @@ import { motion, AnimatePresence } from "framer-motion";
 export default function GalleryPage() {
   const [activeTab, setActiveTab] = useState("images");
   const [selectedImage, setSelectedImage] = useState(null);
-  
+
   const wa = toWhatsAppLink({
     phone: siteConfig.whatsappNumber,
     message: "Hello, I saw your work in the gallery and I have an inquiry.",
@@ -54,22 +54,20 @@ export default function GalleryPage() {
           <div className="flex justify-center gap-4">
             <button
               onClick={() => setActiveTab("images")}
-              className={`flex items-center gap-2 px-6 py-3 rounded-2xl font-black transition-all ${
-                activeTab === "images"
-                  ? "bg-slate-900 text-white shadow-xl scale-105"
-                  : "bg-slate-100 text-slate-600 hover:bg-slate-200"
-              }`}
+              className={`flex items-center gap-2 px-6 py-3 rounded-2xl font-black transition-all ${activeTab === "images"
+                ? "bg-slate-900 text-white shadow-xl scale-105"
+                : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                }`}
             >
               <FaImage className="size-4 text-orange-400" />
               Images
             </button>
             <button
               onClick={() => setActiveTab("videos")}
-              className={`flex items-center gap-2 px-6 py-3 rounded-2xl font-black transition-all ${
-                activeTab === "videos"
-                  ? "bg-slate-900 text-white shadow-xl scale-105"
-                  : "bg-slate-100 text-slate-600 hover:bg-slate-200"
-              }`}
+              className={`flex items-center gap-2 px-6 py-3 rounded-2xl font-black transition-all ${activeTab === "videos"
+                ? "bg-slate-900 text-white shadow-xl scale-105"
+                : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                }`}
             >
               <FaVideo className="size-4 text-yellow-500" />
               Videos
@@ -108,8 +106,8 @@ export default function GalleryPage() {
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
                       <div className="text-white font-black text-xl mb-1">{img.title}</div>
                       <div className="flex items-center justify-between">
-                         <span className="text-orange-400 font-bold text-sm">{img.location}</span>
-                         <span className="bg-white/20 backdrop-blur-md px-3 py-1 rounded-full text-white text-xs font-bold">{img.category}</span>
+                        <span className="text-orange-400 font-bold text-sm">{img.location}</span>
+                        <span className="bg-white/20 backdrop-blur-md px-3 py-1 rounded-full text-white text-xs font-bold">{img.category}</span>
                       </div>
                     </div>
                   </div>
@@ -127,8 +125,8 @@ export default function GalleryPage() {
                 {galleryData.videos.map((vid) => (
                   <div key={vid.id} className="relative group bg-slate-50 rounded-[2.5rem] overflow-hidden border border-slate-200 hover:border-orange-200 transition-all shadow-sm">
                     <div className="relative aspect-video bg-slate-200 flex items-center justify-center">
-                      <video 
-                        className="w-full h-full object-cover" 
+                      <video
+                        className="w-full h-full object-cover"
                         poster={vid.thumbnail}
                         controls
                       >
@@ -180,8 +178,8 @@ export default function GalleryPage() {
                 className="absolute top-6 right-6 z-10 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white p-4 rounded-full transition-all border border-white/10"
               >
                 <div className="relative size-6">
-                   <div className="absolute top-1/2 left-0 w-full h-0.5 bg-white rotate-45"></div>
-                   <div className="absolute top-1/2 left-0 w-full h-0.5 bg-white -rotate-45"></div>
+                  <div className="absolute top-1/2 left-0 w-full h-0.5 bg-white rotate-45"></div>
+                  <div className="absolute top-1/2 left-0 w-full h-0.5 bg-white -rotate-45"></div>
                 </div>
               </button>
               <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-slate-900 to-transparent">
@@ -213,7 +211,7 @@ export default function GalleryPage() {
                 <ButtonLink variant="custom" href={wa} className="bg-gradient-to-r from-orange-400 to-yellow-500 text-white px-10 py-4 font-black rounded-2xl shadow-xl shadow-orange-500/20 active:scale-95 transition-all text-lg">
                   Get Free Quotation
                 </ButtonLink>
-                <ButtonLink variant="outline" href="/services" className="text-white border-white/20 hover:bg-white/5 px-10 py-4 font-black rounded-2xl">
+                <ButtonLink variant="outline" href="/services" className="text-black border-white/20 px-10 py-4 font-black rounded-2xl">
                   Explore Services
                 </ButtonLink>
               </div>

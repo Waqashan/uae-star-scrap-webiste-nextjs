@@ -3,7 +3,7 @@ import { Container } from "@/components/Container";
 import { ButtonLink } from "@/components/ButtonLink";
 import { siteConfig } from "@/lib/site";
 import { FadeIn } from "@/components/FadeIn";
-import { FaWrench, FaArrowRight, FaFacebookF, FaInstagram, FaLinkedinIn, FaPhone, FaPenNib } from "react-icons/fa";
+import { FaWrench, FaArrowRight, FaFacebookF, FaInstagram, FaLinkedinIn, FaPhone, FaPenNib, FaTiktok } from "react-icons/fa";
 import { GiWaterTank, GiReceiveMoney } from "react-icons/gi";
 import { toWhatsAppLink } from "@/lib/whatsapp";
 
@@ -19,7 +19,7 @@ export function HomeHero() {
 
   return (
     <section className="relative overflow-hidden min-h-screen  flex items-center">
-      <Container>
+      <Container className="">
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/70 to-black/0 z-10" />
           <Image
@@ -31,18 +31,18 @@ export function HomeHero() {
             loading="eager"
             sizes="100vw"
           />
-          <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent z-20" />
+          <div className="absolute bottom-0 left-0 right-0  bg-gradient-to-t from-white to-transparent z-20" />
         </div>
 
         <div className="relative  z-30 ">
           <FadeIn className="">
-            <div className="flex flex-wrap items-center gap-4 ">
+            <div className="flex flex-wrap items-center ">
 
               <div className="h-4 w-px bg-white/20 mx-2 hidden sm:block" />
               <div className="flex gap-4">
                 <a href="#" className="p-2 rounded-full bg-white/10 hover:bg-white/20 text-white transition-all backdrop-blur-sm border border-white/10 hover:border-white/30 hover:scale-110 active:scale-95"><FaFacebookF className="size-4" /></a>
                 <a href="#" className="p-2 rounded-full bg-white/10 hover:bg-white/20 text-white transition-all backdrop-blur-sm border border-white/10 hover:border-white/30 hover:scale-110 active:scale-95"><FaInstagram className="size-4" /></a>
-                <a href="#" className="p-2 rounded-full bg-white/10 hover:bg-white/20 text-white transition-all backdrop-blur-sm border border-white/10 hover:border-white/30 hover:scale-110 active:scale-95"><FaLinkedinIn className="size-4" /></a>
+                <a href="#" className="p-2 rounded-full bg-white/10 hover:bg-white/20 text-white transition-all backdrop-blur-sm border border-white/10 hover:border-white/30 hover:scale-110 active:scale-95"><FaTiktok className="size-4" /></a>
               </div>
             </div>
           </FadeIn>
@@ -71,13 +71,7 @@ export function HomeHero() {
                 <FaArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
               </ButtonLink>
 
-              <ButtonLink
-                href="/blog"
-                className="group flex items-center gap-2 bg-(--brand-teal) text-white hover:bg-teal-600 shadow-lg shadow-teal-500/30 rounded-lg px-8 py-4 font-bold text-lg transition-all duration-300 hover:scale-105"
-              >
-                <FaPenNib className="size-4" />
-                Read Our Blog
-              </ButtonLink>
+
 
               <ButtonLink
                 href={`tel:${siteConfig.phoneTel}`}
