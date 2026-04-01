@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b3a6e" stop-opacity="0.12"/>
+      <stop offset="0.55" stop-color="#ffffff" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0.14"/>
+    </linearGradient>
+    <linearGradient id="tank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b3a6e" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#0ea5a4" stop-opacity="0.18"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#0f172a" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.20"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+
+  <!-- decorative blobs -->
+  <g opacity="0.65">
+    <circle cx="240" cy="180" r="140" fill="#0ea5a4" fill-opacity="0.16"/>
+    <circle cx="1350" cy="260" r="190" fill="#f97316" fill-opacity="0.14"/>
+    <circle cx="1080" cy="770" r="220" fill="#0b3a6e" fill-opacity="0.10"/>
+  </g>
+
+  <!-- Tank silhouettes -->
+  <g filter="url(#shadow)">
+    <!-- left tank -->
+    <g transform="translate(260,240)">
+      <rect x="0" y="70" width="420" height="430" rx="210" fill="url(#tank)" stroke="#0f172a" stroke-opacity="0.14"/>
+      <rect x="70" y="0" width="280" height="160" rx="70" fill="#ffffff" fill-opacity="0.55" stroke="#0f172a" stroke-opacity="0.14"/>
+      <rect x="150" y="20" width="120" height="120" rx="40" fill="#0ea5a4" fill-opacity="0.18"/>
+      <path d="M60 260C110 230 155 230 210 260C255 285 310 285 360 260" fill="none" stroke="#0ea5a4" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round"/>
+    </g>
+
+    <!-- right tank -->
+    <g transform="translate(920,220)">
+      <rect x="0" y="85" width="420" height="450" rx="210" fill="url(#tank)" stroke="#0f172a" stroke-opacity="0.14"/>
+      <rect x="70" y="0" width="280" height="175" rx="70" fill="#ffffff" fill-opacity="0.55" stroke="#0f172a" stroke-opacity="0.14"/>
+      <rect x="155" y="28" width="110" height="120" rx="44" fill="#f97316" fill-opacity="0.16"/>
+      <path d="M65 290C120 260 165 260 215 290C265 320 315 320 355 290" fill="none" stroke="#f97316" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- foreground card -->
+  <g transform="translate(120,610)">
+    <rect x="0" y="0" width="780" height="220" rx="34" fill="#ffffff" fill-opacity="0.70" stroke="#0f172a" stroke-opacity="0.12"/>
+    <rect x="28" y="28" width="170" height="60" rx="18" fill="#0ea5a4" fill-opacity="0.16"/>
+    <text x="55" y="66" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="#0b3a6e">WARRANTY</text>
+    <text x="28" y="122" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="900" fill="#0f172a">Refurbished tanks</text>
+    <text x="28" y="162" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="#475569">
+      Tested for leaks " Cleaned " WhatsApp-first inquiries
+    </text>
+  </g>
+</svg>
+

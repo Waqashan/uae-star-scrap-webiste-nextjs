@@ -1,0 +1,198 @@
+[
+  {
+    "id": "grp-panel-15000l-abu-dhabi",
+    "title": "Industrial GRP Panel Tank",
+    "capacityLiters": 15000,
+    "material": "GRP Panel",
+    "condition": "Like New",
+    "warrantyMonths": 24,
+    "priceAED": 12500,
+    "location": "Mussafah, Abu Dhabi",
+    "images": [
+      "/assets/images/grp-water-tanks.jpg"
+    ],
+    "description": "High-capacity modular GRP panel tank. Ideal for multi-story buildings or industrial water storage. Fully refurbished with new internal coating and professional reinforcement."
+  },
+  {
+    "id": "diesel-tank-2000l-jafza",
+    "title": "Horizontal Diesel Storage Tank",
+    "capacityLiters": 2000,
+    "material": "Steel (Double Wall)",
+    "condition": "Excellent",
+    "warrantyMonths": 12,
+    "priceAED": 4500,
+    "location": "Jebel Ali, Dubai",
+    "images": [
+      "/assets/images/diesel-tank.jpeg"
+    ],
+    "description": "Heavy-duty steel diesel storage tank. Double-walled for safety and leak prevention. Includes pump mounting points. Fully pressure tested for industrial fuel storage."
+  },
+  {
+    "id": "pvc-vertical-2500l-khalifa",
+    "title": "Premium PVC Vertical Tank",
+    "capacityLiters": 2500,
+    "material": "High-Density PVC",
+    "condition": "Brand New (Refurb)",
+    "warrantyMonths": 18,
+    "priceAED": 1850,
+    "location": "Khalifa City, Abu Dhabi",
+    "images": [
+      "/assets/images/watertank.webp"
+    ],
+    "description": "Multi-layered UV-stabilized PVC tank. Designed to withstand extreme UAE desert heat. Algae-resistant inner lining and heavy-duty threaded lid."
+  },
+  {
+    "id": "grp-panel-5000l-oasis",
+    "title": "Compact GRP Panel Tank",
+    "capacityLiters": 5000,
+    "material": "GRP Panel",
+    "condition": "Excellent",
+    "warrantyMonths": 12,
+    "priceAED": 5800,
+    "location": "Silicon Oasis, Dubai",
+    "images": [
+      "/assets/images/pannel-tank.jpeg"
+    ],
+    "description": "Space-saving GRP panel tank for residential villas or small commercial units. Easy to dismantle and relocate. Heat resistant and highly durable."
+  },
+  {
+    "id": "diesel-tank-1000l-sharjah",
+    "title": "Vertical Diesel Fuel Tank",
+    "capacityLiters": 1000,
+    "material": "Reinforced Steel",
+    "condition": "Good",
+    "warrantyMonths": 6,
+    "priceAED": 2800,
+    "location": "Industrial Area, Sharjah",
+    "images": [
+      "/assets/images/residentail-delivery.jpeg"
+    ],
+    "description": "Vertical fuel storage solution for generators or small machinery. Rust-treated and painted with high-visibility safety markings."
+  },
+  {
+    "id": "ss-316-2000l-port-rashid",
+    "title": "Industrial SS 316 Tank",
+    "capacityLiters": 2000,
+    "material": "Stainless Steel 316",
+    "condition": "Premium",
+    "warrantyMonths": 36,
+    "priceAED": 6500,
+    "location": "Port Rashid, Dubai",
+    "images": [
+      "/assets/images/polywater-tank.jpeg"
+    ],
+    "description": "Marine-grade SS 316 tank for chemicals or high-purity water. Corrosion-resistant and polished. Ideal for beverage or pharmaceutical use."
+  },
+  {
+    "id": "poly-horizontal-1200l-fujairah",
+    "title": "Horizontal Poly Water Tank",
+    "capacityLiters": 1200,
+    "material": "Polyethylene",
+    "condition": "Excellent",
+    "warrantyMonths": 12,
+    "priceAED": 950,
+    "location": "Fujairah",
+    "images": [
+      "/assets/images/watertank.webp"
+    ],
+    "description": "Low-profile horizontal poly tank. Perfect for installation where height is restricted or for mobile water transport needs."
+  },
+  {
+    "id": "grp-modular-20000l-dubai-south",
+    "title": "Jumbo GRP Modular System",
+    "capacityLiters": 20000,
+    "material": "GRP Panel (Modular)",
+    "condition": "Like New",
+    "warrantyMonths": 24,
+    "priceAED": 16500,
+    "location": "Dubai South",
+    "images": [
+      "/assets/images/grp-loading.jpeg"
+    ],
+    "description": "Extra-large modular water storage unit. Professionally refurbished with food-grade epoxy coating. Includes external ladders and heavy-duty ventilation."
+  },
+  {
+    "id": "tank-1000l-plastic-standard",
+    "title": "Refurbished Plastic Tank",
+    "capacityLiters": 1000,
+    "material": "PVC / Plastic",
+    "condition": "Excellent",
+    "warrantyMonths": 6,
+    "priceAED": 650,
+    "location": "Sharjah",
+    "images": [
+      "/assets/images/watertank.webp"
+    ],
+    "description": "Standard 1000L plastic tank. Cleaned, repaired where needed, and leak-tested."
+  },
+  {
+    "id": "tank-1500l-galvanized-gi",
+    "title": "Refurbished GI Water Tank",
+    "capacityLiters": 1500,
+    "material": "Galvanized Iron",
+    "condition": "Good",
+    "warrantyMonths": 6,
+    "priceAED": 1100,
+    "location": "Abu Dhabi",
+    "images": [
+      "/assets/images/watertank.webp"
+    ],
+    "description": "Durable GI tank for construction sites or basic water storage. Refurbished, coated, and tested."
+  },
+  {
+    "id": "fiber-frp-3000l-dubai",
+    "title": "Premium Fiber (FRP) Water Tank",
+    "capacityLiters": 3000,
+    "material": "Fiberglass (FRP)",
+    "condition": "Excellent",
+    "warrantyMonths": 12,
+    "priceAED": 2400,
+    "location": "Al Quoz, Dubai",
+    "images": [
+      "/assets/images/polywater-tank.jpeg"
+    ],
+    "description": "High-strength fiberglass tank, ideal for underground or rooftop installation. Corrosion-resistant and heat-insulated for UAE conditions."
+  },
+  {
+    "id": "plastic-triple-2000l-sharjah",
+    "title": "Triple-Layer Plastic Tank",
+    "capacityLiters": 2000,
+    "material": "Plastic (Polyethylene)",
+    "condition": "Like New",
+    "warrantyMonths": 18,
+    "priceAED": 1450,
+    "location": "Sharjah City",
+    "images": [
+      "/assets/images/watertank.webp"
+    ],
+    "description": "Premium triple-layer plastic tank with extra UV protection and anti-bacterial inner lining. Keeps water cooler during summer."
+  },
+  {
+    "id": "fiber-modular-5000l-ajman",
+    "title": "Fiberglass Modular Sectional Tank",
+    "capacityLiters": 5000,
+    "material": "Fiberglass (FRP)",
+    "condition": "Excellent",
+    "warrantyMonths": 12,
+    "priceAED": 4200,
+    "location": "Ajman Industrial",
+    "images": [
+      "/assets/images/pannel-tank.jpeg"
+    ],
+    "description": "Modular fiber tank section. Easy to assemble in restricted spaces. Perfect for building maintenance or expansion."
+  },
+  {
+    "id": "plastic-compact-500l-fujairah",
+    "title": "Compact Plastic Water Tank",
+    "capacityLiters": 500,
+    "material": "Plastic",
+    "condition": "Good",
+    "warrantyMonths": 6,
+    "priceAED": 450,
+    "location": "Fujairah",
+    "images": [
+      "/assets/images/watertank.webp"
+    ],
+    "description": "Space-saving compact plastic tank for small villas or garden irrigation. Lightweight and easy to move."
+  }
+]

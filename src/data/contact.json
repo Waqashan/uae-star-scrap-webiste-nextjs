@@ -1,0 +1,19 @@
+{
+  "primary": {
+    "display": "+971 56 319 9172",
+    "dialer": "+971563199172",
+    "whatsapp": "971563199172"
+  },
+  "secondary": {
+    "display": "+971 58 189 2291",
+    "dialer": "+971581892291",
+    "whatsapp": "971581892291"
+  },
+  "email": "info@uaestarscrap.com",
+  "address": {
+    "full": "7VGH+2H9 - Unnamed Road - Al Dhaid - Sharjah - United Arab Emirates",
+    "short": "Al Dhaid, Sharjah, UAE",
+    "landmark": "7VGH+2H9",
+    "link": "https://www.google.com/maps?q=7VGH+2H9+Al+Dhaid+Sharjah"
+  }
+}

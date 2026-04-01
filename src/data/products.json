@@ -1,0 +1,156 @@
+[
+  {
+    "id": 8,
+    "title": "GRP Tanks",
+    "name": "GRP Tanks",
+    "slug": "grp-tanks",
+    "image": "/assets/images/grp-water-tanks.jpg",
+    "description": "Industrial-grade Glass Reinforced Plastic (GRP) tanks for high-capacity storage. These tanks are preferred for their immunity to corrosion, structural rigidity, and versatility in both above-ground and underground installations.",
+    "features": [
+      "Completely corrosion and rust resistant",
+      "High strength-to-weight ratio",
+      "Food-grade internal surfaces available",
+      "Ideal for fire-water and potable storage",
+      "Low maintenance and long service life"
+    ],
+    "process": [
+      "Lamination with high-quality isophthalic resins",
+      "Precise alignment of structural glass fibers",
+      "Post-curing for chemical resistance",
+      "External reinforcement based on capacity",
+      "Hydrostatic and dimensional quality testing"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "PVC Tanks",
+    "name": "PVC Tanks",
+    "slug": "pvc-tanks",
+    "image": "/assets/images/pvc-water-tank.jpeg",
+    "description": "PVC (Polyvinyl Chloride) tanks specifically designed for high-purity and chemical-resistant storage. Recognized for their smooth internal finish and excellent resistance to a wide range of aggressive chemicals and acids.",
+    "features": [
+      "Exceptional chemical and acid resistance",
+      "Ultra-smooth internal finish for hygiene",
+      "Zero-leaching and non-reactive material",
+      "Suitable for laboratories and pharma sites",
+      "Highly durable and lightweight construction"
+    ],
+    "process": [
+      "Precision PVC sheet preparation and cutting",
+      "Advanced thermal welding of all joints",
+      "Internal reinforcement where structurally required",
+      "Stress relief temperature processing",
+      "Spark-testing to ensure leak-proof welds"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Diesel Tanks",
+    "name": "Diesel Tanks",
+    "slug": "diesel-tanks",
+    "image": "/assets/images/diesel-tank.jpg",
+    "description": "Safe and compliant diesel storage solutions for industrial and commercial use. Our tanks are designed to prevent leaks and environmental contamination, ensuring secure storage for fuel and oil.",
+    "features": [
+      "Heavy-duty, fuel-resistant materials",
+      "Double-walled construction for leak prevention",
+      "Integrated vents and overflow indicators",
+      "Certified for industrial safety protocols",
+      "Available in horizontal and vertical configurations"
+    ],
+    "process": [
+      "Structural design for fuel weight and pressure",
+      "Inner tank fabrication and sealing",
+      "Outer containment shell construction",
+      "Fitting of specialized fuel valves and level gauges",
+      "Multi-stage leak and pressure testing"
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Fiber Water Tanks",
+    "name": "Fiber Water Tanks",
+    "slug": "fiber-water-tanks",
+    "image": "/assets/images/fiber-water-tank.jpeg",
+    "description": "High-durability fiberglass reinforced plastic (FRP) water tanks designed for extreme UAE weather conditions. These tanks are corrosion-resistant, lightweight, and offer superior structural strength for residential and commercial use.",
+    "features": [
+      "Corrosion and rust resistant",
+      "UV stabilized for outdoor installation",
+      "Lightweight yet structurally robust",
+      "Easy to repair and maintain",
+      "Available in various vertical and horizontal shapes"
+    ],
+    "process": [
+      "Material selection (high-grade resin and glass)",
+      "Mold preparation and wax application",
+      "Hand-lay or spray-up lamination process",
+      "Curing at controlled temperatures",
+      "Quality inspection and pressure testing"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Panel Tanks",
+    "name": "Panel Tanks",
+    "slug": "panel-tanks",
+    "image": "/assets/images/pannel-tank.jpeg",
+    "description": "Modular GRP panel tanks for large-scale water storage. These tanks can be assembled in various configurations to fit specific site requirements, making them ideal for high-rise buildings and industrial zones.",
+    "features": [
+      "Modular design for flexible sizing",
+      "Internal and external reinforcement options",
+      "Space-efficient for tight locations",
+      "Seamless internal lining for hygiene",
+      "Suitable for massive capacities (up to 1,000,000 liters)"
+    ],
+    "process": [
+      "Site assessment and foundation preparation",
+      "Panel manufacturing and quality control",
+      "On-site assembly and bolting",
+      "Internal sealant application",
+      "Leak testing and sterilization"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Poly Water Tanks",
+    "name": "Poly Water Tanks",
+    "slug": "poly-water-tanks",
+    "image": "/assets/images/polywater-tank.jpeg",
+    "description": "Rotationally molded polyethylene tanks for safe potable water storage. These tanks are food-grade, multi-layered, and provide excellent insulation against heat.",
+    "features": [
+      "Food-grade, non-toxic material (HDPE)",
+      "Multi-layer construction for heat insulation",
+      "Joint-free, monolithic structure",
+      "Impact resistant and flexible",
+      "Cost-effective with long lifespan"
+    ],
+    "process": [
+      "Polyethylene powder preparation",
+      "Rotational molding at high heat",
+      "Cooling and shrinkage management",
+      "Trimming and fitting installation",
+      "Stress-crack resistance testing"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Box Tanks",
+    "name": "Box Tanks",
+    "slug": "box-tanks",
+    "image": "/assets/images/box-water-tank.jpg",
+    "description": "Rectangular and square GRP tanks designed for limited space applications. Perfect for lofts, basements, and mechanical rooms where space efficiency is paramount.",
+    "features": [
+      "Space-saving rectangular geometry",
+      "Fits in lofts and small enclosures",
+      "Reinforced with internal stay-rods",
+      "Lightweight for easy manual handling",
+      "Customizable dimensions for specific gaps"
+    ],
+    "process": [
+      "Custom mold creation for specific dimensions",
+      "Corner reinforcement strategies",
+      "Lamination with high-tensile resins",
+      "Lid and fitting customization",
+      "Quality audit for dimensional accuracy"
+    ]
+  }
+]

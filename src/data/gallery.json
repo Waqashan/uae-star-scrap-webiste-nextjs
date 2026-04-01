@@ -1,0 +1,83 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "title": "GRP Tank Installation",
+      "location": "Dubai Industrial City",
+      "src": "/assets/images/grp-water-tanks.jpg",
+      "category": "Installation"
+    },
+    {
+      "id": 2,
+      "title": "PVC Tank Repair",
+      "location": "Sharjah",
+      "src": "/assets/images/pvc-water-tank.jpeg",
+      "category": "Repair"
+    },
+    {
+      "id": 3,
+      "title": "Diesel Tank Refurbishment",
+      "location": "Abu Dhabi",
+      "src": "/assets/images/diesel-tank.jpg",
+      "category": "Refurbishment"
+    },
+    {
+      "id": 4,
+      "title": "Fiber Water Tank",
+      "location": "Ajman",
+      "src": "/assets/images/fiber-water-tank.jpeg",
+      "category": "Product"
+    },
+    {
+      "id": 5,
+      "title": "Panel Tank Assembly",
+      "location": "Jebel Ali",
+      "src": "/assets/images/pannel-tank.jpeg",
+      "category": "Installation"
+    },
+    {
+      "id": 6,
+      "title": "Poly Water Tank Delivery",
+      "location": "Ras Al Khaimah",
+      "src": "/assets/images/polywater-tank.jpeg",
+      "category": "Logistics"
+    },
+    {
+      "id": 7,
+      "title": "Box Tank Space Solution",
+      "location": "Dubai Marina",
+      "src": "/assets/images/box-water-tank.jpg",
+      "category": "Custom"
+    },
+    {
+      "id": 8,
+      "title": "GRP Lining Process",
+      "location": "Fujairah",
+      "src": "/assets/images/watertank.webp",
+      "category": "Service"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "title": "GRP Lamination Process",
+      "thumbnail": "/assets/images/grp-water-tanks.jpg",
+      "videoUrl": "https://www.youtube.com/embed/example1",
+      "description": "Watch our expert team performing high-quality GRP lamination on an industrial tank."
+    },
+    {
+      "id": 2,
+      "title": "Diesel Tank Safety Testing",
+      "thumbnail": "/assets/images/diesel-tank.jpg",
+      "videoUrl": "https://www.youtube.com/embed/example2",
+      "description": "A demonstration of our rigorous pressure and leak testing for diesel storage solutions."
+    },
+    {
+      "id": 3,
+      "title": "PVC Thermal Welding",
+      "thumbnail": "/assets/images/pvc-water-tank.jpeg",
+      "videoUrl": "https://www.youtube.com/embed/example3",
+      "description": "Our precision PVC thermal welding techniques ensuring a monolithic, leak-proof bond."
+    }
+  ]
+}

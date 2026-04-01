@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "title": "GRP Tank Repairing",
+    "slug": "grp-tank-repairing",
+    "image": "/assets/images/grp-tank-repairing.webp",
+    "description": "Specialized repair services for GRP (Glass Reinforced Plastic) tanks. We handle structural cracks, osmosis issues, and delamination using high-performance resins and hand-lay lamination techniques.",
+    "extendedDescription": "GRP tanks are susceptible to structural fatigue over time. Our repair process involves a multi-layer reinforcement strategy. We first stabilize the cracked area with high-tensile glass roving and then apply layers of isophthalic resin to create a permanent, watertight bond. This process is far more durable than standard patchwork and restores the tank's original load-bearing capacity. Whether it's a small hairline crack or a major structural failure, our GRP experts ensure your tank is safe and fully functional.",
+    "features": [
+      "Osmo-shield surface treatment",
+      "High-tensile fiberglass reinforcement",
+      "Chemical-resistant resin application",
+      "Structural crack injection and sealing",
+      "On-site repair with minimal downtime",
+      "Full structural integrity guarantee",
+      "Suitable for industrial and fire-water tanks",
+      "UV-stable outer finish application"
+    ],
+    "process": [
+      "Rigorous surface preparation and grinding",
+      "Mechanical identification of all structural weak points",
+      "Application of primary bonding catalyst",
+      "Multi-layered lamination of fiberglass mats",
+      "Post-curing to ensure industrial hardness",
+      "Spark-testing for lining continuity",
+      "Final pressure and leak verification"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "PVC Tank Repairing",
+    "slug": "pvc-tank-repairing",
+    "image": "/assets/images/pvc-tank-repairing.jpeg",
+    "description": "Expert thermal welding and repair for PVC and high-density plastic tanks. We use specialized extrusion welding techniques to ensure 100% leak-proof results for chemical and potable water storage.",
+    "extendedDescription": "PVC tanks require precise temperature control during repair to prevent material degradation. Our technicians utilize industrial-grade extrusion welders and PVC welding rods to create a monolithic bond at the repair site. This 'fusion' approach ensures that the repair is as strong as the original material. We specialize in fixing stress cracks, fitting failures, and seam leaks in PVC tanks used for chemical processing, laboratories, and high-purity water storage.",
+    "features": [
+      "Specialized extrusion thermal welding",
+      "Material-match PVC welding rods",
+      "High-purity and food-grade safety",
+      "Stress-relief cooling protocols",
+      "Seam reinforcement and joint sealing",
+      "Chemical resistance verification",
+      "Precision leak detection in plastic structures",
+      "Suitable for lab and pharma-grade tanks"
+    ],
+    "process": [
+      "Thorough cleaning and decontamination of the weld area",
+      "Chamfering and preparation of the crack or joint",
+      "Precision extrusion welding with temperature monitoring",
+      "Internal and external weld reinforcement",
+      "Controlled cooling to prevent stress induction",
+      "Static head pressure leak testing",
+      "Final surface smoothing and inspection"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Diesel Tank Repairing",
+    "slug": "diesel-tank-repairing",
+    "image": "/assets/images/diesel-tank-repairing.jpeg",
+    "description": "Comprehensive maintenance and repair for diesel and fuel storage tanks. We provide fuel-resistant lining, leak stopping, and structural reinforcement to ensure compliance with UAE safety standards.",
+    "extendedDescription": "Diesel storage carries significant environmental and fire safety risks. Our specialized diesel tank service focuses on maintaining the primary and secondary containment integrity. We utilize fuel-resistant resins and double-wall lining systems to prevent any seepage into the surrounding soil. Our repair covers longitudinal cracks, joint failures, and the installation of new manhole seals and gaskets. Every repair is documented and tested to ensure it meets the rigorous standards required for hazardous material storage in the UAE.",
+    "features": [
+      "Fuel and hydrocarbon resistant lining",
+      "Double-walled containment reinforcement",
+      "Environmental leak prevention focus",
+      "Manhole seal and gasket replacement",
+      "Certified hazardous environment protocols",
+      "Corrosion-resistant external coatings",
+      "Detailed structural safety documentation",
+      "Compatible with B5 to B100 diesel blends"
+    ],
+    "process": [
+      "Safe fuel transfer and atmospheric testing",
+      "Industrial-grade degreasing and surface cleaning",
+      "Mapping of structural fatigue and leak points",
+      "Application of specialized fuel-resistant lamination",
+      "Reinforcement of high-stress joints and seams",
+      "Comprehensive pressure and vacuum testing",
+      "Final certification and return to service"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Water Tank Repairing",
+    "slug": "water-tank-repairing",
+    "image": "/assets/images/water-tank-repairing.png",
+    "description": "Our professional water tank repairing service covers all materials including plastic (HDPE), fiberglass (GRP), stainless steel, and galvanized iron. Whether you are dealing with a minor hairline crack or a major structural leak, our team uses industrial-grade resins and advanced thermal welding techniques to restore your tank's integrity. We understand that in the UAE's harsh climate, water storage is critical, which is why we offer rapid deployment and long-lasting solutions that prevent future degradation.",
+    "extendedDescription": "Water tanks in the UAE are subjected to extreme thermal expansion and UV radiation, which often leads to structural fatigue and leaks. Our specialized repair process doesn't just patch the problem; we reinforce the identified weak points using high-tensile fiberglass mesh and food-grade epoxy resins that are safe for potable water. Every repair we perform is designed to meet DEWA and SEWA standards, ensuring your water supply remains safe, clean, and contained. From residential villas to large-scale industrial reservoirs, no project is too small or too complex for our certified technicians.",
+    "features": [
+      "Precision leak detection using acoustic and thermal imaging",
+      "Specialized GRP and HDPE thermal welding",
+      "Structural reinforcement for pressurized systems",
+      "Internal and external high-pressure patchwork",
+      "Replacement of corroded flanges and fittings",
+      "UV-resistant outer coating application",
+      "Compliant with UAE municipality hygiene standards",
+      "Non-toxic, food-grade materials only"
+    ],
+    "process": [
+      "Comprehensive on-site damage assessment and mapping",
+      "Complete draining and industrial-grade surface decontamination",
+      "Mechanical abrasion of the repair area for maximum adhesion",
+      "Multi-layered application of resin and reinforcement mesh",
+      "High-temperature curing for structural bonding",
+      "Static head pressure testing and leak verification",
+      "Final sanitation and issuance of warranty certificate"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Water Tank Refurbishment",
+    "slug": "water-tank-refurbishment",
+    "image": "/assets/images/water-tank-refurbishment.png",
+    "description": "Complete restoration service for older or neglected water tanks. We bring your tank back to a 'like-new' condition, extending its lifespan and improving water hygiene. Our refurbishment process is significantly more cost-effective than replacement and can double the remaining life of your storage system.",
+    "extendedDescription": "Neglected water tanks can harbor dangerous bacteria, sediment, and algae, posing a serious health risk. Our refurbishment service involves a deep-level sanitary overhaul. We remove internal scaling, treat surfaces for microbial growth, and apply specialized medical-grade finishing coats. This not only improves the quality of your water but also prevents the structural rot that often goes unnoticed in underground or roof-top tanks. By refurbishing instead of replacing, you save on high replacement costs and avoid the logistical nightmare of dismantling old systems.",
+    "features": [
+      "Deep-level mechanical and chemical sanitation",
+      "Internal surface smoothing and re-profiling",
+      "Application of medical-grade protective coatings",
+      "Sanitization and anti-microbial treatments",
+      "Overhaul of tank access hatches and seals",
+      "Pipework connection inspection and tightening",
+      "Full 12-month performance guarantee",
+      "Documented hygiene reporting"
+    ],
+    "process": [
+      "Deep cleaning and removal of all sediment and sludge",
+      "Removal of old, flaking or contaminated linings",
+      "Surface priming and moisture-barrier application",
+      "Application of food-grade finishing layers",
+      "Installation of new gaskets and seals where needed",
+      "Final sterilization using municipality-approved agents",
+      "System testing and immediate hand-over for use"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Water Tank Re-lining",
+    "slug": "water-tank-re-lining",
+    "image": "/assets/images/water-tank-re-lining.png",
+    "description": "High-performance relining for leaking or contaminated tanks. Using food-grade materials, we create a seamless waterproof barrier inside your existing storage structure. This is the ultimate solution for concrete or metal tanks that have started to seep or show signs of internal corrosion.",
+    "extendedDescription": "Internal tank surfaces eventually degrade due to constant water contact and chemical treatments. Our relining service utilizes advanced epoxy and GRP (Glass Reinforced Plastic) systems that create a completely seamless, non-porous 'tank within a tank'. This lining is impermeable to water and resistant to the chemicals used in UAE water treatment. It effectively stops leaks, prevents rust in metal tanks, and eliminates the porosity of concrete that can harbor deep-seated bacteria. Our process is rapid and results in a surface that is incredibly easy to clean and maintain.",
+    "features": [
+      "WRAS-approved food-grade epoxy systems",
+      "Seamless and joint-free waterproof membrane",
+      "Tested for high-temperature resistance up to 60°C",
+      "Permanent prevention of internal corrosion and rust",
+      "Inhospitable to algae and bacterial growth",
+      "Applicable to concrete, steel, and fiber structures",
+      "Superior bond strength to existing substrates",
+      "Extends tank service life by 10+ years"
+    ],
+    "process": [
+      "Mechanical cleaning and removal of existing coatings",
+      "High-pressure wash and thorough drying of internal walls",
+      "Patching and leveling of structural irregularities",
+      "Application of specialized adhesive primer",
+      "Multi-coat application of food-grade lining system",
+      "Curing and Spark-testing for lining continuity",
+      "Sanitization and final quality audit"
+    ]
+  }
+]

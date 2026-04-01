@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #ffffff;
+  --fg: #0f172a;
+  /* slate-900 */
+
+  /* Brand palette */
+  --brand-blue: #021a36;
+  /* Deep Blue */
+  --brand-teal: #083b99;
+  /* requested: use #f97316 for teal */
+  --brand-orange: #f99c00;
+  /* Orange accent */
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--brand-teal) 25%, white);
+}

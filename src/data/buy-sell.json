@@ -1,0 +1,18 @@
+{
+  "weBuyScrap": [
+    "Old water tanks (Plastic / Stainless / Galvanized)",
+    "Tank fittings and accessories",
+    "Metal scrap (Steel, Aluminum, Copper)",
+    "Plastic scrap",
+    "Water pumps"
+  ],
+  "weSellItems": [
+    {
+      "category": "Fittings & accessories",
+      "items": ["Valves", "Covers", "Connectors", "Float valves", "Gaskets / seals"]
+    },
+    { "category": "Pipes & lines", "items": ["PVC pipes", "Flexible pipes", "Adapters"] },
+    { "category": "New / old stock", "items": ["Select parts available (ask for list)"] }
+  ]
+}
+
