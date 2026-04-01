@@ -14,7 +14,7 @@ import { GiReceiveMoney, GiWaterTank } from "react-icons/gi";
 
 export default function BuySellPage() {
   const [activeTab, setActiveTab] = useState("buy"); // 'buy' or 'sell'
-  
+
   // Form State for Sell
   const [sellForm, setSellForm] = useState({
     itemType: "Water Tank",
@@ -54,18 +54,18 @@ export default function BuySellPage() {
                 Source high-quality refurbished tanks and parts, or turn your unused scrap into cash with our rapid WhatsApp valuation.
               </p>
             </div>
-            
+
             {/* Custom Tabs */}
             <div className="mt-10 flex justify-center">
               <div className="inline-flex rounded-full bg-slate-100 p-1.5 shadow-inner">
-                <button 
+                <button
                   onClick={() => setActiveTab('buy')}
                   className={`flex items-center gap-2 rounded-full px-8 py-3 text-sm font-bold transition-all ${activeTab === 'buy' ? 'bg-white text-(--brand-blue) shadow-md' : 'text-slate-500 hover:text-(--brand-blue)'}`}
                 >
                   <FaBoxOpen className={activeTab === 'buy' ? 'text-(--brand-orange)' : ''} />
                   Looking to Buy
                 </button>
-                <button 
+                <button
                   onClick={() => setActiveTab('sell')}
                   className={`flex items-center gap-2 rounded-full px-8 py-3 text-sm font-bold transition-all ${activeTab === 'sell' ? 'bg-(--brand-blue) text-white shadow-md' : 'text-slate-500 hover:text-(--brand-blue)'}`}
                 >
@@ -79,7 +79,7 @@ export default function BuySellPage() {
       </div>
 
       <Container className="py-12 max-w-5xl mx-auto">
-        
+
         {/* BUY TAB */}
         {activeTab === 'buy' && (
           <FadeIn>
@@ -140,7 +140,7 @@ export default function BuySellPage() {
         {activeTab === 'sell' && (
           <FadeIn>
             <div className="grid lg:grid-cols-5 gap-10 bg-white rounded-[2.5rem] p-8 md:p-12 shadow-xl border border-slate-100">
-              
+
               <div className="lg:col-span-2">
                 <div className="inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-400 to-yellow-500 shadow-lg text-white mb-6">
                   <GiReceiveMoney className="size-8" />
@@ -149,7 +149,7 @@ export default function BuySellPage() {
                 <p className="mt-4 text-slate-600 leading-relaxed mb-8">
                   Fill out this quick form to generate a structured request. It will open WhatsApp with all your details pre-filled for our team to review instantly.
                 </p>
-                
+
                 <div className="bg-slate-50 rounded-2xl p-6 border border-slate-200 relative overflow-hidden">
                   <div className="absolute top-0 right-0 w-24 h-24 bg-(--brand-teal)/5 rounded-full -translate-y-1/2 translate-x-1/2"></div>
                   <div className="relative z-10">
@@ -168,7 +168,7 @@ export default function BuySellPage() {
 
               <div className="lg:col-span-3 lg:pl-10 lg:border-l border-slate-100">
                 <form onSubmit={handleSellSubmit} className="space-y-6">
-                  
+
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm font-bold text-slate-700 mb-2">Item Type *</label>
@@ -182,6 +182,10 @@ export default function BuySellPage() {
                     <div>
                       <label className="block text-sm font-bold text-slate-700 mb-2">Material *</label>
                       <select name="material" value={sellForm.material} onChange={handleSellChange} className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 text-slate-900 focus:outline-none focus:ring-2 focus:ring-(--brand-teal) focus:border-transparent font-medium">
+                        <option value="PVC water Tank">PVC water Tank</option>
+                        <option value="GRP water Tank">GRP water Tank</option>
+                        <option value="Diesel Tank">Diesel Tank</option>
+                        <option value="HDPE / Fiber">HDPE / Fiber</option>
                         <option value="Plastic (HDPE / Fiber)">Plastic (HDPE / Fiber)</option>
                         <option value="Stainless Steel">Stainless Steel</option>
                         <option value="Galvanized Iron (GI)">Galvanized Iron (GI)</option>
